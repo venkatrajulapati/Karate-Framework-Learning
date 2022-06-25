@@ -22,5 +22,5 @@ Scenario: read Values from Json Array
 * print jsonObject
 * print jsonObject[0]
 * print jsonObject[0].name
-* print jsonObject[1].name
+* print jsonObject[*].name
 * print jsonObject[1].nicknames[2]
